@@ -1,65 +1,65 @@
 # PR-Municipalities-Database
 
-This repository contains a C++ program designed to manage a database of Puerto Rican municipalities. It allows for storing various attributes like name, population, area, and mayor, providing functionalities to add, remove, edit, and view information using arrays, classes, conditionals, and functions.
+Este repositorio contiene un programa en C++ diseñado para administrar una base de datos de municipios puertorriqueños. Permite almacenar varios atributos como nombre, población, área y alcalde, proporcionando funcionalidades para agregar, eliminar, editar y visualizar información utilizando arreglos, clases, condicionales y funciones.
 
-## How to Install
+## Casos de Uso
 
-To set up this project locally, follow these steps:
+Este proyecto puede ser útil para:
+
+- Organizaciones gubernamentales que buscan administrar y acceder fácilmente a información sobre municipios.
+- Desarrolladores que necesitan una base de datos de municipios de Puerto Rico para integrarla en sus aplicaciones.
+- Investigadores que realizan estudios demográficos y necesitan un punto de referencia para datos municipales.
+
+## Motivación
+
+Este proyecto fue creado para proporcionar una solución eficiente a la necesidad de gestionar información sobre los municipios de Puerto Rico, facilitando el acceso y manipulación de datos de manera estructurada y centralizada como proyecto final para mi clase universitaria '**Introducción a la Programación de Computadoras II**'.
+
+## Cómo Instalar
+
+Para configurar este proyecto localmente, sigue estos pasos:
 
 ```bash
 git clone https://github.com/marcoyuuu/PR-Municipalities-Database.git
 cd PR-Municipalities-Database
-# Follow any specific setup instructions, such as installing dependencies or compiling the program
+# Sigue las instrucciones específicas de configuración, como instalar dependencias o compilar el programa.
 ```
 
-## How to Use
+## Cómo Usar
 
-Here are some examples of how you can interact with the program:
-
-```cpp
-// Example of creating a new municipality
-Municipality newMunicipality("San Juan", 350000, 123.4, "Mayor Name");
-database.addMunicipality(newMunicipality);
-
-// Example of editing a municipality's information
-database.editMunicipality("San Juan", "population", 355000);
-
-// Example of removing a municipality
-database.removeMunicipality("San Juan");
-
-// Example of viewing all municipalities
-database.viewMunicipalities();
-```
-
-## Terminal Usage
-
-This program is designed to be run from the terminal or command line interface. After installing and setting up the project, navigate to the project directory in your terminal. Compile the C++ code (if not already compiled) using your preferred compiler, for example:
+Este programa está diseñado para ejecutarse desde la terminal o línea de comandos. Después de instalar y configurar el proyecto, navega al directorio del proyecto en tu terminal. Compila el código C++ (si aún no está compilado) usando tu compilador preferido, por ejemplo:
 
 ```bash
 g++ main.cpp -o municipalities
 ```
 
-Then, you can run the compiled program with:
+Luego, puedes ejecutar el programa compilado con:
 
 ```bash
 ./municipalities
 ```
 
-Interact with the program according to the prompts or instructions provided within the terminal. Ensure you have the necessary permissions to execute the program in your environment.
+Después de compilar y ejecutar el programa, sigue los menús interactivos en la terminal para interactuar con el sistema:
 
+1. Elige `1` para añadir un nuevo pueblo y sigue las instrucciones para ingresar la información requerida.
+2. Elige `2` para remover un pueblo, y sigue las instrucciones para especificar cuál eliminar.
+3. Elige `3` para editar la información de un pueblo existente.
+4. Elige `4` para imprimir la lista de todos los pueblos.
+5. Elige `5` para imprimir la información detallada de un pueblo específico.
+6. Elige `6` para imprimir el total de la población de los pueblos agregados.
+7. Elige `7` para salir del programa.
 
-## Contributing to Open Source
+## Contribuyendo al Código Abierto
 
-We welcome contributions to make this project even better! Here's how you can contribute:
+¡Agradecemos las contribuciones para hacer este proyecto aún mejor! Así es como puedes contribuir:
 
-1. Fork the repository.
-2. Create a new branch for your changes (`git checkout -b my-new-feature`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add some feature'`).
-5. Push to the branch (`git push origin my-new-feature`).
-6. Create a new Pull Request.
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tus cambios (`git checkout -b mi-nueva-funcionalidad`).
+3. Realiza tus cambios.
+4. Compromete tus cambios (`git commit -am 'Agregar alguna funcionalidad'`).
+5. Empuja a la rama (`git push origin mi-nueva-funcionalidad`).
+6. Crea una nueva Pull Request.
 
-## License
+## Licencia
 
-This project is licensed under the GPL License - see the [LICENSE](LICENSE) file for details.
-
+Este proyecto está licenciado bajo la Licencia GPL - vea el archivo [LICENSE](LICENSE) para más detalles.
+```
