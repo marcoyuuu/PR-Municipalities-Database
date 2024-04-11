@@ -61,5 +61,5 @@ We welcome contributions to make this project even better! Here's how you can co
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL License - see the [LICENSE](LICENSE) file for details.
 
