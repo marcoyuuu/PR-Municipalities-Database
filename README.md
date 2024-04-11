@@ -62,4 +62,3 @@ Después de compilar y ejecutar el programa, sigue los menús interactivos en la
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia GPL - vea el archivo [LICENSE](LICENSE) para más detalles.
-```
